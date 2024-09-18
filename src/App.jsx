@@ -7,10 +7,10 @@ import Notification from "./components/Notification/Notification";
 const App = () => {
   const [feedbackData, setFeedbackData] = useState(() => {
     const savedData = JSON.parse(window.localStorage.getItem("feedback"));
-    if (!savedData) {
-      return { good: 0, neutral: 0, bad: 0 };
+    if (savedData) {
+      return savedData;
     }
-    return savedData;
+    return { good: 0, neutral: 0, bad: 0 };
   });
 
   useEffect(() => {
