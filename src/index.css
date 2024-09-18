@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(26, 2, 2, 0.87);
+  background-color: #ebe0e0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1c1c24;
+  background-color: #bfbec7;
+}
+#root {
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+  padding: 40px;
+  /* text-align: center; */
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img {
+  display: block;
+}
+
+a:not(.police-link) {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  display: block;
+  border-radius: 5px;
+  background-color: #1c1c24;
+  color: #bfbec7;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
